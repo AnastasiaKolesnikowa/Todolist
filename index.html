@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="app">
+            <h1 class="title">Todolist 📝</h1>
+
+            <!-- Форма для добавления новых задач -->
+            <form class="form" name="todolist">
+                <input
+                    type="text"
+                    class="input"
+                    placeholder="Введите задачу"
+                    name="task"
+                />
+                <button type="submit" class="add-button">Добавить ➕</button>
+            </form>
+
+            <ul class="list">
+                <!-- Сюда будут добавляться задачи -->
+            </ul>
+            <button class="reset">
+                Очистить Todolist от выполненных задач
+            </button>
+            <div class="div_count">
+                <span>Невыполненные задачи:</span>
+                <span class="count">0</span>
+            </div>
+        </div>
+
+        <!-- Логика нашего приложения будет размещена в этом файле -->
+
+        <script src="main.js"></script>
+    </body>
+</html>

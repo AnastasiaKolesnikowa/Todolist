@@ -1,0 +1,59 @@
+/* *,
+*::after,
+*::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+} */
+
+body {
+    font-family: "Courier New", Courier, monospace;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.done .task-title {
+    text-decoration: line-through;
+    color: rgb(65, 51, 33);
+}
+
+::placeholder {
+    font-family: "Courier New", Courier, monospace;
+}
+
+button {
+    font-family: "Courier New", Courier, monospace;
+    background-color: rgb(99, 102, 105);
+    border: none;
+    border-radius: 50px;
+    color: rgb(241, 239, 239);
+    height: 30px;
+    text-align: center;
+}
+
+input {
+    font-family: "Courier New", Courier, monospace;
+    min-height: 25px;
+    border-radius: 10px;
+}
+.div_count {
+    margin-top: 15px;
+    margin-left: 6px;
+}
+button:hover {
+    cursor: pointer;
+}
+input:hover {
+    border-color: rgb(65, 51, 33);
+    cursor: pointer;
+}
+.task-title:hover {
+    cursor: pointer;
+    color: rgb(99, 102, 105);
+}
